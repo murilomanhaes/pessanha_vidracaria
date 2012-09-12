@@ -11,39 +11,38 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120910162030) do
+ActiveRecord::Schema.define(:version => 20120912224951) do
 
   create_table "usuarios", :force => true do |t|
     t.string   "nome"
     t.string   "sobrenome"
     t.string   "sexo"
-    t.string   "data_nascimento"
     t.string   "telefone"
-    t.string   "tipo"
     t.string   "endereco"
     t.string   "complemento"
     t.string   "bairro"
     t.string   "cidade"
     t.string   "estado"
-    t.string   "cep"
-    t.string   "email",                  :default => "", :null => false
+    t.string   "email"
+    t.date     "data_nascimento"
+    t.datetime "created_at",                             :null => false
+    t.datetime "updated_at",                             :null => false
     t.string   "encrypted_password",     :default => "", :null => false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
-    t.datetime "remember_created_at"
     t.integer  "sign_in_count",          :default => 0
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
-    t.integer  "failed_attempts",        :default => 5
+    t.integer  "failed_attempts",        :default => 0
     t.string   "unlock_token"
     t.datetime "locked_at"
-    t.datetime "created_at",                             :null => false
-    t.datetime "updated_at",                             :null => false
+    t.string   "tipo"
   end
 
   add_index "usuarios", ["email"], :name => "index_usuarios_on_email", :unique => true
   add_index "usuarios", ["reset_password_token"], :name => "index_usuarios_on_reset_password_token", :unique => true
+  add_index "usuarios", ["unlock_token"], :name => "index_usuarios_on_unlock_token", :unique => true
 
 end

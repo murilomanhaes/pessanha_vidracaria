@@ -328,10 +328,11 @@ img {
 
 #conteudo {
 	width: 920px;
-	min-height: 427px;
+	min-height: 406px;
 	padding: 5px;
 	margin: 0 auto;
 	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 
@@ -379,7 +380,7 @@ img {
 
 #empresa{
 	width: 920px;
-	min-height: 250px;
+	min-height: 200px;
 }
 
 
@@ -414,6 +415,16 @@ img {
 
 
 /*Configurações para home*/
+
+#home {
+	width: 920px;
+	min-height: 960px;
+	padding: 5px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+/*Configurações para o slide*/
 
 .recentes_servicos {
 	float: left;
@@ -528,4 +539,215 @@ img {
 	background: url("/assets/slide/templatemo_banner_divider.jpg") bottom repeat-x;
 }
 
+/*Fim para o slide*/
+
+
+/*Configurações para noticias*/
+
+#noticia {
+  float: left;
+  width: 490px;
+  height: 650px;
+  margin-top:10px;
+}
+
+/*Fim para noticias*/
+
+
+/*Configurações para tabua de carne*/
+
+#tabuadecarne {
+  float: right;
+  width: 390px;
+  height: 170px;
+  margin-top:10px;
+  margin-right: 20px;
+  background-color: #7a5433;
+}
+
+#tabuadecarne img {
+  float: left;
+  width: 380px;
+  height: 160px;
+  margin: 5px;
+}
+
+/*Fim para tabua de carne*/
+
+
+/*Configuracao para a localizacao*/
+
+
+#localizacao {
+  float: left;
+  width: 170px;
+  height: 170px;
+  margin-top:10px;
+  margin-left: 30px;
+  background-color: #7a5433;
+}
+
+.localizacao {
+  float: left;
+  width: 160px;
+  height: 160px;
+  margin: 5px;
+  background: url("/assets/home/mapa.jpg") no-repeat 0 0;
+ }
+
+#conteudolocal{
+	width: 920px;
+	min-height: 650px;
+}
+
+#conteudolocal h3{
+	width:115px;
+	height:21px;
+	border-bottom:#8B5742 solid 1px;
+	margin: 21px 0 18px 48px;
+	float:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #8B5742;
+}
+
+
+#conteudolocal p{
+	text-indent: 30px;
+	color: #8B5742;
+	text-align: justify;
+}
+
+#conteudolocal iframe {
+  float: left;
+  margin-left: 160px;
+  margin-top: 40px;
+}
+
+
+
+/*Fim para localizacao*/
+
+/*Configuracao para a mural de recados*/
+
+
+#mural {
+  float: left;
+  width: 170px;
+  height: 170px;
+  margin-top:10px;
+  margin-left: 40px;
+}
+
+#mural img {
+  float: left;
+  width: 160px;
+  height: 160px;
+  margin: 5px;
+}
+
+
+/*Fim para mural*/
+
+
+
+/*Configuracao para dicas*/
+
+
+#dicas {
+  float: left;
+  width: 270px;
+  height: 170px;
+  margin-top:10px;
+  margin-left: 70px;
+  background-color: #7a5433;
+}
+
+#dicas img {
+  float: left;
+  width: 260px;
+  height: 160px;
+  margin: 5px;
+}
+
+
+/*Fim para dicas*/
+
+
+/*Configuracao para carro*/
+
+
+#carro {
+  float: left;
+  width: 370px;
+  height: 120px;
+  margin-top:10px;
+  margin-left: 20px;
+  background-color: #7a5433;
+}
+
+#carro img {
+  float: left;
+  width: 110px;
+  height: 110px;
+  margin: 5px;
+  margin-right: 15px;
+}
+
+
+#carro p {
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+/*Fim para dicas*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Configurações para adminitrador*/
+
+
+#menuadminitrador { 
+  float: left;
+  width: 610px;
+  height: 120px;
+  margin-top: 120px;
+  margin-left: 150px;
+}
+
+.menucadastrar {
+  float: left;
+  width: 170px;
+  height: 100px;
+  margin-left: 40px;
+  background: url("/assets/admin/cadastrar.gif") no-repeat 0 0;
+ }
+ 
+ .menualterar {
+  float: left;
+  width: 170px;
+  height: 100px;
+  margin-left: 10px;
+  background: url("/assets/admin/alterar.gif") no-repeat 0 0;
+ }
+ 
+ .menuconsultar {
+  float: left;
+  width: 170px;
+  height: 100px;
+  margin-left: 40px;
+  background: url("/assets/admin/consulatarerelatorio.gif") no-repeat 0 0;
+ }
 

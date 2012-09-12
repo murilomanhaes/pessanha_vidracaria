@@ -1,3 +1,12 @@
+<% if can? :manage, :all %>
+ <div id="menuadminitrador">
+	   <%= link_to '', alterar_deletar_administracoes_path, :class => "menualterar" %>
+	   <%= link_to '', cadastrar_administracoes_path, :class => "menucadastrar" %>
+	   <%= link_to '', consultar_relatorio_administracoes_path, :class => "menuconsultar" %>
+	 </div>
+		
+<% else %>
+<div id="home">
 <div class="recentes_servicos">
   <div class="projeto_slideshow">  
     <div id="one" class="contentslider">
@@ -5,22 +14,22 @@
         <div class="cs_slider">
           
           <div class="cs_article">
-            <a href="#"><img src="/assets/slide/templatemo_image_01.jpg" alt="Screenshot 1" />
+            <a href="#"><img src="/assets/slide/foto.jpg" alt="Screenshot 1" />
             </a>
           </div>
           
           <div class="cs_article">
-            <a href="#"><img src="/assets/slide/templatemo_image_02.jpg" alt="Screenshot 2" />
+            <a href="#"><img src="/assets/slide/foto2.jpg" alt="Screenshot 2" />
             </a>
           </div>
           
           <div class="cs_article">
-            <a href="#"><img src="/assets/slide/templatemo_image_03.jpg" alt="Screenshot 3" />
+            <a href="#"><img src="/assets/slide/foto3.jpg" alt="Screenshot 3" />
             </a>
           </div>
           
           <div class="cs_article">
-            <a href="#"><img src="/assets/slide/templatemo_image_04.jpg" alt="Screenshot 4" />
+            <a href="#"><img src="/assets/slide/foto4.jpg" alt="Screenshot 4" />
             </a>
           </div>
                     
@@ -31,8 +40,53 @@
             
       <div class="projeto_conteudo">
         <div class="nossos_servicos">Nossos Serviços</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac dui non tellus auctor convallis. Cras facilisis venenatis fermentum.</p>
+          <p>Esses são alguns dos serviços feitos pela nossa empresa. A nossa empresa procura atender todos os nossos clientes com dedicação. Para confirir mais alguns dos nossos serviços, clique no botão abaixo.</p>
           
           <div class="veja_mais"><a href="#">Veja mais</a></div>
         </div>
       </div>
+      
+            
+      <div id="noticia">
+      
+        <h1>Noticias</h1>
+      </div>
+      
+      <div id= "tabuadecarne">
+      
+        <img src="/assets/home/tabuadetime.jpg"/>
+      
+      </div>
+      
+      
+      
+      <div id="localizacao">
+      
+         <%= link_to '', locais_path, :class => "localizacao" %>
+        
+      </div>
+      
+      <div id="mural">
+      
+        <img src="/assets/home/recado.gif"/>
+        
+      </div>
+      
+      <div id="dicas">
+      
+        <img src="/assets/home/dicas.jpg"/>
+        
+      </div>
+      
+      <div id="carro">
+      
+        <img src="/assets/home/carro.jpg"/>
+        
+        <p>A J. Pessanha pensando nos clientes e no melhor para nossos funcionários, inovou muito pintanto o seu carro com desenhos muitos legais, confira as fotos.</p>
+        
+      </div>
+        
+        
+</div>
+      
+<% end %>

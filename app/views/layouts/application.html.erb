@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <title>Murilo Manhães - Soluções em Informática</title>
+  <title>J. Pessanha Vidraçaria - O melhor em vidro</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= javascript_include_tag "jquery.easing.1.3.js" %>
@@ -65,10 +65,10 @@
 						<li><a href="#">Serviços</a></li>
 													  
 				  <% if usuario_signed_in? %>
-				    <li class="last"><a href="contato.html">Contato</a></li>
+				    <li class="last"><a href="#">Contato</a></li>
 				    <li><%= link_to 'Sair', destroy_usuario_session_path, method: :delete %></li>
 				  <%else%>
-				    <li><a href="">Contato</a></li>
+				    <li><a href="#">Contato</a></li>
 				    <li><%= link_to "Login", usuario_session_path %></li>
 				    <li><%= link_to "Cadastra-se", new_usuario_registration_path, :class => "cadastrar" %></li>
 				  <% end %>
