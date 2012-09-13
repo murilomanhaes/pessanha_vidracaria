@@ -1,0 +1,17 @@
+<div id="conteudodica">
+					<h3 class="vantagens_temper">Vantagens de um Vidro Temperado</h3>
+						
+					<p>O vidro temperado quando fraturado se fragmenta em pequenos pedaços, com arestas menos cortantes que o vidro comum. Tem resistência mecânica cerca de quatro a cinco vezes superiores do vidro comum.</p>
+
+					<p>O processo de fabricação do vidro temperado consiste no aquecimento da matéria-prima (cristal ou vidro impresso) submetido a um tratamento térmico de têmpera à temperatura de 650/700ºC, recebendo logo após, choque térmico provocado por jatos de ar. Esta brusca mudança de temperatura gera uma compressão das faces externas e expansão na parte interna, adquirindo neste processo características de resistência muito maior do que as do vidro comum.</p>
+
+					<h3 class="vantagens_temper2"> Onde o vidro temperado é indicado ?</h3>
+
+					<p>O vidro temperado é indicado para locais que requerem resistência, como boxes de chuveiro, portas de vidro ou frontões de lareira, seu uso em fachadas está restrito a entre vãos de pequenas dimensões dentro de caixilhos.</p>
+
+					<p>O vidro temperado oferece segurança por evitar ferimentos graves ao ser quebrado devido a seus pequenos fragmentos arredondados, pois possuem furações e recortes especiais que não fragilizam a peça, tendo excelente efeito estético pela ausência de esquadrias, baixo custo comparado com o vidro comum.</p>
+					
+					<%= link_to '', dicas_path, :class => "voltar" %>
+					
+</div>
+

@@ -1,0 +1,20 @@
+<div id="conteudodica">
+  	<h3>Dicas</h3>
+						
+		<p>A J. Pessanha Vidracaria pensando em nossos clientes e amigos elaborou umas dicas para ajudar na limpeza de box, espelhos, vidros Comuns. Elaborou também recomendações de box, manutenção de box e vantagens dos vidros temperados. Leia com atenção as dicas para ter sucesso com o conteúdo.</p>
+
+    <ol>
+      <li><%= link_to 'Limpeza Box', limpeza_box_dicas_path %></li>
+      <li><%= link_to 'Limpeza Vidro Comum', limpeza_vidro_dicas_path %></li>
+      <li><%= link_to 'Limpeza Espelho', limpeza_espelho_dicas_path %></li>
+      <li><%= link_to 'Manutenção Box', manutencao_box_dicas_path %></li>
+      <li><%= link_to 'Recomendações box', recomendacoes_box_dicas_path %></li>
+      <li><%= link_to 'Vantagens Vidro Temperado', vantagens_temperado_dicas_path %></li>
+    </ol>
+
+<%= link_to '', root_path, :class => "voltar" %>
+
+</div>
+
+
+ 

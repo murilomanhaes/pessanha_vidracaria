@@ -34,6 +34,14 @@ img {
 }
 
 
+.voltar {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+  margin-top: 50px;
+  background:url("/assets/voltar.gif");
+}
 
 
 /*Configurações para as noticias e alertas*/
@@ -322,6 +330,7 @@ img {
 /*Configurações para o conteudo*/
 
 #conteudo_fundo{
+  float: left;
   width: 100%;
 	margin: 0 auto;
 }
@@ -639,7 +648,7 @@ img {
   margin-left: 40px;
 }
 
-#mural img {
+#mural img {dica
   float: left;
   width: 160px;
   height: 160px;
@@ -663,13 +672,174 @@ img {
   background-color: #7a5433;
 }
 
-#dicas img {
+.dicas {
   float: left;
   width: 260px;
   height: 160px;
   margin: 5px;
+  background: url("/assets/home/dicas.jpg") no-repeat 0 0;
+ }
+
+
+#conteudodica{
+  width: 920px;
+  margin-bottom: 20px;
 }
 
+
+#conteudodica h3{
+	width: 54px;
+	height:21px;
+	border-bottom:#8B5742 solid 1px;
+	margin: 21px 0 18px 48px;
+	float:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #8B5742;
+}
+
+
+#conteudodica p{
+	text-indent: 30px;
+	color: #8B5742;
+	text-align: justify;
+}
+
+#conteudodica ol{
+	color: #8B5742;
+	font-size: 15px;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+#conteudodica li{
+  margin: 10px;
+}
+
+#conteudodica ol li a {
+	color: #8B5742;
+}
+
+#conteudodica li a:hover {
+	color: #8B5742;
+}
+
+#limpa_box{
+	width: 920px;
+	min-height: 500px;
+}
+
+#conteudodica .limpa_box{
+	width: 154px;
+	height:21px;
+	border-bottom:#8B5742 solid 1px;
+	margin: 21px 0 18px 48px;
+	float:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #8B5742;
+}
+
+#limpa_vidro{
+	width: 920px;
+	min-height: 460px;
+}
+
+#conteudodica .limpa_vidro{
+	width: 247px;
+	height:21px;
+	border-bottom:#8B5742 solid 1px;
+	margin: 21px 0 18px 48px;
+	float:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #8B5742;
+}
+
+#conteudodica .limpa_vidro2{
+	width: 148px;
+	height:21px;
+	border-bottom:#8B5742 solid 1px;
+	margin: 21px 0 18px 48px;
+	float:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #8B5742;
+}
+
+#conteudodica .limpa_vidro3{
+	width: 132px;
+	height:21px;
+	border-bottom:#8B5742 solid 1px;
+	margin: 21px 0 18px 48px;
+	float:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #8B5742;
+}
+
+
+#conteudodica .limpa_espelho{
+	width: 196px;
+	height:21px;
+	border-bottom:#8B5742 solid 1px;
+	margin: 21px 0 18px 48px;
+	float:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #8B5742;
+}
+
+#conteudodica .manutencao_box{
+	width: 190px;
+	height:21px;
+	border-bottom:#8B5742 solid 1px;
+	margin: 21px 0 18px 48px;
+	float:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #8B5742;
+}
+
+#recomendacoes_box{
+	width: 920px;
+	min-height: 410px;
+}
+
+#conteudodica .recomendacoes_box{
+	width: 250px;
+	height:21px;
+	border-bottom:#8B5742 solid 1px;
+	margin: 21px 0 18px 48px;
+	float:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #8B5742;
+}
+
+
+
+#conteudodica .vantagens_temper{
+	width: 335px;
+	height:21px;
+	border-bottom:#8B5742 solid 1px;
+	margin: 21px 0 18px 48px;
+	float:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #8B5742;
+}
+
+#conteudodica .vantagens_temper2{
+	width: 355px;
+	height:21px;
+	border-bottom:#8B5742 solid 1px;
+	margin: 21px 0 18px 48px;
+	float:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #8B5742;
+}
 
 /*Fim para dicas*/
 
@@ -702,7 +872,7 @@ img {
   color: #ffffff;
 }
 
-/*Fim para dicas*/
+/*Fim para carro*/
 
 
 
