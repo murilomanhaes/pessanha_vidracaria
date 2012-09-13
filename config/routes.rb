@@ -1,5 +1,7 @@
 PessanhaVidracaria::Application.routes.draw do
  
+  resources :fotoscarros
+  
   resources :dicas do 
     collection do
       get :limpeza_box

@@ -1,0 +1,5 @@
+class Fotos_carrosController < ApplicationController 
+ 
+  def index 
+	end 
+end

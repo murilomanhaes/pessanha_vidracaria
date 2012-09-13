@@ -1,5 +1,7 @@
 PessanhaVidracaria::Application.routes.draw do
  
+  resources :fotos_carros
+  
   resources :dicas do 
     collection do
       get :limpeza_box
@@ -7,6 +9,7 @@ PessanhaVidracaria::Application.routes.draw do
       get :limpeza_espelho
       get :manutencao_box
       get :recomendacoes_box
+      get :vantagens_temperado
     end
   end
   
