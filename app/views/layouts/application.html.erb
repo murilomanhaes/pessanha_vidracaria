@@ -71,7 +71,7 @@
             <li> <%= link_to "Inicial",root_path %> </li>
 						<li> <%= link_to "Empresa", somos_path %> </li>
 						<li><a href="#">Produtos</a></li>
-						<li><a href="#">Serviços</a></li>
+						<li><%= link_to "Serviços", servicos_path %></li>
 													  
 				  <% if usuario_signed_in? %>
 				    <li class="last"><a href="#">Contato</a></li>

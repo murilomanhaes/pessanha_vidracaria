@@ -1,6 +1,14 @@
 PessanhaVidracaria::Application.routes.draw do
  
-  resources :fotos_carros
+  resources :servicos do
+    collection do 
+      get :bascula_seteira
+      get :box
+      get :espelho
+    end
+  end
+  
+  resources :fotoscarros
   
   resources :dicas do 
     collection do

@@ -1,0 +1,60 @@
+<div id="conteudoservico">
+						<h3 class="bascula_seteira"> Báscula e Seteira </h3>
+						<p> Está são as fotos de serviços feito pela J. Pessanha Vidraçaria.</p>
+
+
+ <div id="gallery">
+						<ul>
+						
+							<li><a href="/assets/fotos/servico/bascula/foto.jpg" title="Fotos de básculas e seteiras">
+							  <img src="/assets/fotos/servico/bascula/foto_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/bascula/foto2.jpg" title="Fotos de básculas e seteiras">
+								<img src="/assets/fotos/servico/bascula/foto2_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/bascula/foto3.jpg" title="Fotos de básculas e seteiras">
+								<img src="/assets/fotos/servico/bascula/foto3_editada.jpg" width="100" alt="" />
+							</a></li>
+						   	<li><a href="/assets/fotos/servico/bascula/foto4.jpg" title="Fotos de básculas e seteiras">
+								<img src="/assets/fotos/servico/bascula/foto4_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/bascula/foto5.jpg" title="Fotos de básculas e seteiras">
+								<img src="/assets/fotos/servico/bascula/foto5_editada.jpg" width="100" alt="" />
+							</a></li>
+						   	<li><a href="/assets/fotos/servico/bascula/foto6.jpg" title="Fotos de básculas e seteiras">
+								<img src="/assets/fotos/servico/bascula/foto6_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/bascula/foto7.jpg" title="Fotos de básculas e seteiras">
+								<img src="/assets/fotos/servico/bascula/foto7_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/bascula/foto8.jpg" title="Fotos de básculas e seteiras">
+								<img src="/assets/fotos/servico/bascula/foto8_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/bascula/foto9.jpg" title="Fotos de básculas e seteiras">
+								<img src="/assets/fotos/servico/bascula/foto9_editada.jpg" width="100" alt="" />
+							</a></li>
+						   	<li><a href="/assets/fotos/servico/bascula/foto10.jpg" title="Fotos de básculas e seteiras">
+								<img src="/assets/fotos/servico/bascula/foto10_editada.jpg" width="100" alt="" />
+							</a></li>
+
+
+							<li><a href="/assets/fotos/servico/bascula/foto11.jpg" title="Fotos de básculas e seteiras">
+								<img src="/assets/fotos/servico/bascula/foto11_editada.jpg" width="100" alt="" />
+							</a></li>
+						   	<li><a href="/assets/fotos/servico/bascula/foto12.jpg" title="Fotos de básculas e seteiras">
+								<img src="/assets/fotos/servico/bascula/foto12_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/bascula/foto13.jpg" title="Fotos de básculas e seteiras">
+								<img src="/assets/fotos/servico/bascula/foto13_editada.jpg" width="100" alt="" />
+							</a></li>
+						   	<li><a href="/assets/fotos/servico/bascula/foto14.jpg" title="Fotos de básculas e seteiras">
+								<img src="/assets/fotos/servico/bascula/foto14_editada.jpg" width="100" alt="" />
+							</a></li>
+					</ul>
+	</div>
+
+
+<%= link_to '', root_path, :class => "voltar_bascula" %>
+
+</div>
+

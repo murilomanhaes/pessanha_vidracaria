@@ -1,0 +1,25 @@
+<div id="conteudoservico">
+  <h3> Serviços </h3>
+	<p>A J. Pessanha Vidracaria pensando em nossos clientes e amigos colocou fotos de serviços feito pela empresa. Vejas todas as fotos e confira a qualidade de nossos serviços.</p><br>
+					
+    <ol>
+		  <li><%= link_to 'Báscula e Seteira', bascula_seteira_servicos_path %></li>
+		  <li><%= link_to 'Box', box_servicos_path %></li>
+      <li><%= link_to 'Espelho', espelho_servicos_path %></li>
+
+
+						<li><a href="fechamento.html" class="dicasmenu">Fechamentos</a></li>
+						<li><a href="janela.html" class="dicasmenu">Janelas</a></li>
+						<li><a href="porta.html" class="dicasmenu">Portas</a></li>
+						<li><a href="quadro.html" class="dicasmenu">Quadros</a></li>
+						<li><a href="sacada.html" class="dicasmenu">Sacadas</a></li>
+						<li><a href="vidro.html" class="dicasmenu">Vidro Comum</a></li>
+					</ol>
+							
+
+<%= link_to '', root_path, :class => "voltar" %>
+
+</div>
+
+
+ 

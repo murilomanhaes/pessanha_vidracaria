@@ -42,7 +42,7 @@
         <div class="nossos_servicos">Nossos Serviços</div>
           <p>Esses são alguns dos serviços feitos pela nossa empresa. A nossa empresa procura atender todos os nossos clientes com dedicação. Para confirir mais alguns dos nossos serviços, clique no botão abaixo.</p>
           
-          <div class="veja_mais"><a href="#">Veja mais</a></div>
+          <div class="veja_mais"><%= link_to "Veja mais", servicos_path %></div>
         </div>
       </div>
       
@@ -80,7 +80,7 @@
       
       <div id="carro">
       
-        <%= link_to '', fotoscarros_path, :class => "carros" %><img src="/assets/home/carro.jpg"/>
+        <%= link_to '', fotoscarros_path, :class => "carros" %>
         
         <p>A J. Pessanha pensando nos clientes e no melhor para nossos funcionários, inovou muito pintanto o seu carro com desenhos muitos legais, confira as fotos.</p>
         

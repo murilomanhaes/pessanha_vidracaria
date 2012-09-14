@@ -1,0 +1,32 @@
+<div id="conteudoservico">
+						<h3 class= "espelhos"> Espelhos </h3>
+						<p> Está são as fotos de serviços feito pela J. Pessanha Vidraçaria.</p>
+
+
+ <div id="gallery">
+						<ul>
+						
+							<li><a href="/assets/fotos/servico/espelho/foto.jpg" title="Fotos de Espelhos">
+							  <img src="/assets/fotos/servico/espelho/foto_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/espelho/foto2.jpg" title="Fotos de Espelhos">
+								<img src="/assets/fotos/servico/espelho/foto2_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/espelho/foto3.jpg" title="Fotos de Espelhos">
+								<img src="/assets/fotos/servico/espelho/foto3_editada.jpg" width="100" alt="" />
+							</a></li>
+						   	<li><a href="/assets/fotos/servico/espelho/foto4.jpg" title="Fotos de Espelhos">
+								<img src="/assets/fotos/servico/espelho/foto4_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/espelho/foto5.jpg" title="Fotos de Espelhos">
+								<img src="/assets/fotos/servico/espelho/foto5_editada.jpg" width="100" alt="" />
+							</a></li>
+						   	
+					</ul>
+	</div>
+
+
+<%= link_to '', servicos_path, :class => "voltar_espelho" %>
+
+</div>
+

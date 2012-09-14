@@ -52,6 +52,33 @@ img {
   background:url("/assets/voltar.gif");
 }
 
+.voltar_bascula {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-left: -820px;
+  margin-top: 370px;
+  background:url("/assets/voltar.gif");
+}
+
+.voltar_box {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-left: -820px;
+  margin-top: 370px;
+  background:url("/assets/voltar.gif");
+}
+
+.voltar_espelho {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-left: -820px;
+  margin-top: 240px;
+  background:url("/assets/voltar.gif");
+}
+
 
 /*Configurações para as noticias e alertas*/
 
@@ -118,6 +145,23 @@ img {
   width: 700px;
   margin-bottom: 20px;
   margin-left: 80px;
+}
+
+#formulario .novousuario{
+	width: 175px;
+	height:21px;
+	border-bottom:#8B5742 solid 1px;
+	margin: 21px 0 18px 48px;
+	float:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #8B5742;
+}
+
+#formulario p{
+	text-indent: 30px;
+	color: #8B5742;
+	text-align: justify;
 }
 
 #formulario li {
@@ -910,7 +954,87 @@ img {
 
 /*Fim para carro*/
 
+/*Fim para Home*/
 
+
+/*Configurações para servicos*/
+
+#conteudoservico{
+  width: 920px;
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+
+#conteudoservico h3{
+	width: 84px;
+	height:21px;
+	border-bottom:#8B5742 solid 1px;
+	margin: 21px 0 18px 48px;
+	float:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #8B5742;
+}
+
+
+#conteudoservico p{
+	text-indent: 30px;
+	color: #8B5742;
+	text-align: justify;
+}
+
+#conteudoservico ol{
+	color: #8B5742;
+	font-size: 15px;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+#conteudoservico ol li{
+  margin: 10px;
+}
+
+#conteudoservico ol li a {
+	color: #8B5742;
+}
+
+#conteudoservico li a:hover {
+	color: #8B5742;
+}
+
+#conteudoservico .bascula_seteira{
+	width: 170px;
+	height:21px;
+	border-bottom:#8B5742 solid 1px;
+	margin: 21px 0 18px 48px;
+	float:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #8B5742;
+}
+
+#conteudoservico .box{
+	width: 152px;
+	height:21px;
+	border-bottom:#8B5742 solid 1px;
+	margin: 21px 0 18px 48px;
+	float:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #8B5742;
+}
+
+#conteudoservico .espelho{
+	width: 90px;
+	height:21px;
+	border-bottom:#8B5742 solid 1px;
+	margin: 21px 0 18px 48px;
+	float:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #8B5742;
+}
 
 
 
@@ -1010,7 +1134,7 @@ img {
 }
 
 #gallery ul img{
-  border: 5px solid 8B795E;
+  border: 5px solid #8B795E;
 	border-width: 5px 5px 5px;
 	margin-left: 10px;
 	margin-bottom:10px;
