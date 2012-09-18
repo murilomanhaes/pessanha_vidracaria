@@ -5,6 +5,8 @@ PessanhaVidracaria::Application.routes.draw do
       get :bascula_seteira
       get :box
       get :espelho
+      get :fechamento
+      get :janela
     end
   end
   

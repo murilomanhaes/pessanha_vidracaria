@@ -1,0 +1,95 @@
+<div id="conteudoservico">
+						<h3 class= "janela"> Janelas </h3>
+						<p> Está são as fotos de serviços feito pela J. Pessanha Vidraçaria.</p>
+
+
+ <div id="gallery">
+						<ul>
+						
+							<li><a href="/assets/fotos/servico/janela/foto.jpg" title="Fotos de janelas temperado">
+							  <img src="/assets/fotos/servico/janela/foto_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/janela/foto2.jpg" title="Fotos de janelas temperado">
+								<img src="/assets/fotos/servico/janela/foto2_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/janela/foto3.jpg" title="Fotos de janelas temperado">
+								<img src="/assets/fotos/servico/janela/foto3_editada.jpg" width="100" alt="" />
+							</a></li>
+						   	<li><a href="/assets/fotos/servico/janela/foto4.jpg" title="Fotos de janelas temperado">
+								<img src="/assets/fotos/servico/janela/foto4_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/janela/foto5.jpg" title="Fotos de janelas temperado">
+								<img src="/assets/fotos/servico/janela/foto5_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/janela/foto6.jpg" title="Fotos de janelas temperado">
+							  <img src="/assets/fotos/servico/janela/foto6_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/janela/foto7.jpg" title="Fotos de janelas temperado">
+								<img src="/assets/fotos/servico/janela/foto7_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/janela/foto8.jpg" title="Fotos de janelas temperado">
+								<img src="/assets/fotos/servico/janela/foto8_editada.jpg" width="100" alt="" />
+							</a></li>
+						   	<li><a href="/assets/fotos/servico/janela/foto9.jpg" title="Fotos de janelas temperado">
+								<img src="/assets/fotos/servico/janela/foto9_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/janela/foto10.jpg" title="Fotos de janelas temperado">
+								<img src="/assets/fotos/servico/janela/foto10_editada.jpg" width="100" alt="" />
+							</a></li>
+							
+							
+							<li><a href="/assets/fotos/servico/janela/foto11.jpg" title="Fotos de janelas temperado">
+							  <img src="/assets/fotos/servico/janela/foto11_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/janela/foto12.jpg" title="Fotos de janelas temperado">
+								<img src="/assets/fotos/servico/janela/foto12_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/janela/foto13.jpg" title="Fotos de janelas temperado">
+								<img src="/assets/fotos/servico/janela/foto13_editada.jpg" width="100" alt="" />
+							</a></li>
+						   	<li><a href="/assets/fotos/servico/janela/foto14.jpg" title="Fotos de janelas temperado">
+								<img src="/assets/fotos/servico/janela/foto14_editada.jpg" width="100" alt="" />
+							</a></li>
+							
+							<li><a href="/assets/fotos/servico/janela/foto15.jpg" title="Fotos de janelas temperado">
+							  <img src="/assets/fotos/servico/janela/foto15_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/janela/foto16.jpg" title="Fotos de janelas temperado">
+								<img src="/assets/fotos/servico/janela/foto16_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/janela/foto17.jpg" title="Fotos de janelas temperado">
+								<img src="/assets/fotos/servico/janela/foto17_editada.jpg" width="100" alt="" />
+							</a></li>
+						   	<li><a href="/assets/fotos/servico/janela/foto18.jpg" title="Fotos de janelas temperado">
+								<img src="/assets/fotos/servico/janela/foto18_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/janela/foto19.jpg" title="Fotos de janelas temperado">
+								<img src="/assets/fotos/servico/janela/foto19_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/janela/foto20.jpg" title="Fotos de janelas temperado">
+							  <img src="/assets/fotos/servico/janela/foto20_editada.jpg" width="100" alt="" />
+							</a></li>
+							
+							
+							
+							<li><a href="/assets/fotos/servico/janela/foto21.jpg" title="Fotos de janelas temperado">
+								<img src="/assets/fotos/servico/janela/foto21_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/janela/foto22.jpg" title="Fotos de janelas temperado">
+								<img src="/assets/fotos/servico/janela/foto22_editada.jpg" width="100" alt="" />
+							</a></li>
+						   	<li><a href="/assets/fotos/servico/janela/foto23.jpg" title="Fotos de janelas temperado">
+								<img src="/assets/fotos/servico/janela/foto23_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/janela/foto24.jpg" title="Fotos de janelas temperado">
+								<img src="/assets/fotos/servico/janela/foto24_editada.jpg" width="100" alt="" />
+							</a></li>
+							
+					</ul>
+	</div>
+
+
+<%= link_to '', servicos_path, :class => "voltar_janela" %>
+
+</div>
+
