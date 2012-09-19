@@ -1,0 +1,21 @@
+<div id="conteudoservico">
+						<h3 class= "sacada"> Sacada e Guarda Corpo </h3>
+						<p> Está são as fotos de serviços feito pela J. Pessanha Vidraçaria.</p>
+
+
+ <div id="gallery">
+						<ul>
+						
+							<li><a href="/assets/fotos/servico/sacada/foto.jpg" title="Fotos de Sacadas e Guarda Corpo">
+							  <img src="/assets/fotos/servico/sacada/foto_editada.jpg" width="100" alt="" />
+							</a></li>
+							
+																		   	
+					</ul>
+	</div>
+
+
+<%= link_to '', servicos_path, :class => "voltar_sacada" %>
+
+</div>
+

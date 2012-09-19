@@ -7,6 +7,10 @@ PessanhaVidracaria::Application.routes.draw do
       get :espelho
       get :fechamento
       get :janela
+      get :porta
+      get :quadro
+      get :sacada
+      get :vidro_comum
     end
   end
   

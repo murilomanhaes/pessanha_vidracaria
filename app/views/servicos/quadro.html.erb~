@@ -1,0 +1,31 @@
+<div id="conteudoservico">
+						<h3 class= "quadro"> Quadros </h3>
+						<p> Está são as fotos de serviços feito pela J. Pessanha Vidraçaria.</p>
+
+
+ <div id="gallery">
+						<ul>
+						
+							<li><a href="/assets/fotos/servico/quadro/foto.jpg" title="Fotos de quadros">
+							  <img src="/assets/fotos/servico/quadro/foto_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/quadro/foto2.jpg" title="Fotos de quadros">
+								<img src="/assets/fotos/servico/quadro/foto2_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/quadro/foto3.jpg" title="Fotos de quadros">
+								<img src="/assets/fotos/servico/quadro/foto3_editada.jpg" width="100" alt="" />
+							</a></li>
+						   	<li><a href="/assets/fotos/servico/quadro/foto4.jpg" title="Fotos de quadros">
+								<img src="/assets/fotos/servico/quadro/foto4_editada.jpg" width="100" alt="" />
+							</a></li>
+							<li><a href="/assets/fotos/servico/quadro/foto5.jpg" title="Fotos de quadros">
+								<img src="/assets/fotos/servico/quadro/foto5_editada.jpg" width="100" alt="" />
+																		   	
+					</ul>
+	</div>
+
+
+<%= link_to '', servicos_path, :class => "voltar" %>
+
+</div>
+

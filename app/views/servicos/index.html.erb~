@@ -7,14 +7,11 @@
 		  <li><%= link_to 'Box', box_servicos_path %></li>
       <li><%= link_to 'Espelho', espelho_servicos_path %></li>
       <li><%= link_to 'Fechamentos', fechamento_servicos_path %></li>
-						
-						
-						
-						<li><a href="janela.html" class="dicasmenu">Janelas</a></li>
-						<li><a href="porta.html" class="dicasmenu">Portas</a></li>
-						<li><a href="quadro.html" class="dicasmenu">Quadros</a></li>
-						<li><a href="sacada.html" class="dicasmenu">Sacadas</a></li>
-						<li><a href="vidro.html" class="dicasmenu">Vidro Comum</a></li>
+			<li><%= link_to 'Janelas', janela_servicos_path %></li>
+			<li><%= link_to 'Portas', porta_servicos_path %></li>
+			<li><%= link_to 'Quadros', quadro_servicos_path %></li>
+			<li><%= link_to 'Sacadas', sacada_servicos_path %></li>
+			<li><%= link_to 'Vidro Comum', vidro_comum_servicos_path %></li>
 					</ol>
 							
 
