@@ -16,7 +16,6 @@
           input_html: opcoes_para_data %>
         
         <%= f.input :tipo, as: :select, collection: ["Administrador", ""]%>
-
   </fieldset>
 
   <br><br>
